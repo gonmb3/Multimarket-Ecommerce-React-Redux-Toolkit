@@ -1,0 +1,41 @@
+
+.product__details{
+    margin-top: 50px;
+
+}
+.product__details h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.btn__buy{
+    border: 2px solid var(--primary-color);
+    outline: none;
+    color: #ffff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 3px;
+}
+.btn__buy:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+.product__rating{
+    color: coral;
+}
+
+
+.product__rating p{
+    color: coral;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+

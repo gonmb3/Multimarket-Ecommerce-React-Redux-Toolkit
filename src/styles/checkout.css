@@ -1,0 +1,18 @@
+
+
+.data__form .form__group{
+    border: 1px solid var(--card-bg-02);
+  
+}
+
+.buy_btn{
+    border: 2px solid var(--primary-color);
+    outline: none;
+    padding: 8px 20px;
+    margin: 8px 0;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+}

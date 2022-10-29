@@ -1,0 +1,40 @@
+.product__info h3{
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+
+
+.product__info h3:hover{
+    color: var(--link-color);
+}
+
+.product__img{
+    cursor: pointer;
+}
+
+.product__info span{
+    font-size: .9rem;
+}
+
+.product__card-bottom .price{
+    color: var(--primary-color);
+    font-style: 1.3rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+@media screen  and (max-width:768px){
+    .product__card-bottom .price{
+       font-size: 1.7rem;
+    }
+    
+}
+
+.product__card-bottom .product__plus-icon{
+    cursor: pointer;
+
+}
+
