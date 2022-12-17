@@ -69,13 +69,6 @@ const Shop = () => {
                     </select>                 
                 </Col> 
 
-                <Col lg="3" md="6" className='text-start'>             
-                    <select className="filter__container" onChange={handleFilter}>
-                      <option>Ordenar Por</option>
-                      <option value="ascending">Ascendente</option>
-                      <option value="descending">Descendente</option>
-                    </select>                                
-               </Col> 
 
                 <Col lg="6" md="12">
                   <div className="search__box">

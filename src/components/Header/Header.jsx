@@ -125,7 +125,7 @@ const Header = () => {
                                     whileTap={{ scale: 1.2 }} src={userIcon} alt="" />    
 
                                   <div 
-                                  className="profile__actions"
+                                  className="profile__actions "
                                   onClick={toggleProfileActions} 
                                   ref={profileActionsRef}>
 
@@ -133,7 +133,7 @@ const Header = () => {
                                  
                                      <span onClick={logout}>Cerrar Sesión</span>
                                           :
-                                    <div className="d-flex align-items-center justify-content-center flex-column">
+                                    <div className="d-flex align-items-center justify-content-center flex-column ">
                                     <Link to="/signup">Registrate </Link> 
                                     <Link to="/login">Iniciar Sesión</Link>
                                     </div>
